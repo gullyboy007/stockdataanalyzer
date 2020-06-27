@@ -1,2 +1,4 @@
-# stockdataanalyzer
-My attempt with analysing stocks with Python
+## stockdataanalyzer
+#Tinkering with Indian Stock Market
+ToDo:
+Get Historical Data of National Stock Exchange
