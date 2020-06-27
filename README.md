@@ -1,5 +1,5 @@
 ## stockdataanalyzer
-#Tinkering with Indian Stock Market
+Tinkering with Indian Stock Market
 
 
 ToDo:
