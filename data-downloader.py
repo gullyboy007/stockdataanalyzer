@@ -12,7 +12,7 @@ sym = df['SYMBOL'].tolist()
 def data_downloader(symbol):
     path = '/home/abhineet/py_files/PyPortfolioBuilder/nse_data'
 
-    for i in range(170,len(symbol)):
+    for i in range(0,len(symbol)):
         try:
             tickerData = yf.download(symbol[i]+'.NS'start="2020-7-20", end="2020-7-24", interval='1m')
             file_name = symbol[i] + '.csv'
