@@ -29,11 +29,15 @@ def data_downloader(symbol):
                     append_write = 'a' # append if already exists
                 else:
                     append_write = 'w' # make a new file if not
-                with open(filePath,append_write) as outfile:
-                    df.to_string(outfile)
-                outfile.close()
+                try:
+
+                    with open(filePath,append_write) as outfile:
+                        tickerData.to_string(outfile)
+                    outfile.close()
+                except:
+                    continue    
             except:
-                print("error in except")
+                print("Error in Symbol")
                 continue
         startTime = startTime + timedelta(days=+6)
         
