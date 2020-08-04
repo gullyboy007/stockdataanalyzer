@@ -13,7 +13,7 @@ sym = df['SYMBOL'].tolist()
 
 def data_downloader(symbol):
     path = '/home/abhineet/py_files/PyPortfolioBuilder/stockdataanalyzer/nse-onemin-data'
-    startTime = date(2020, 7, 6)
+    startTime = date(2020, 7, 1)
     nextTime = startTime + timedelta(days=+6)
     
 
